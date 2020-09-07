@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter Profile</title>
+</head>
+<body>
+    <p>
+        <h1>This is you, {{ g.user.email }} :))</h1><br/>
+
+        <a href="{{ url_for('search') }}">
+            <input type="button" value="Search"/>
+        </a>
+         <!--<form action="/search">
+
+            <input type="text" name="title"/>Title<br/>
+            <input type="number" name="number" maxlength="100" minlength="10"/>Number<br/>
+            <input type="submit" value="search"/><br/>
+
+        </form> -->
+    </p>
+</body>
+</html>
